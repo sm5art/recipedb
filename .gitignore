@@ -1,2 +1,5 @@
 recipedb.cfg
 venv
+__pycache__
+temp.gz
+.vscode

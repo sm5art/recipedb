@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 from bson.objectid import ObjectId   
 
-from demix.config import get_cfg
+from recipedb.config import get_cfg
 
 cfg = get_cfg('mongo')
 

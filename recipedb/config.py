@@ -1,6 +1,6 @@
 import configparser
 import os
-from demix.utils.directory import current_directory
+from recipedb.utils.directory import current_directory
 
 CONFIG = current_directory(__file__) + "/recipedb.cfg"
 
