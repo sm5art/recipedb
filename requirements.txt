@@ -16,6 +16,7 @@ ipython==7.13.0
 ipython-genutils==0.2.0
 jedi==0.16.0
 Jinja2==2.11.1
+joblib==0.14.1
 json5==0.9.4
 jsonschema==3.2.0
 jupyter-client==6.1.2
@@ -44,8 +45,11 @@ python-dateutil==2.8.1
 pytz==2019.3
 pyzmq==19.0.0
 requests==2.23.0
+scikit-learn==0.22.2.post1
+scipy==1.4.1
 Send2Trash==1.5.0
 six==1.14.0
+sklearn==0.0
 soupsieve==2.0
 terminado==0.8.3
 testpath==0.4.4
