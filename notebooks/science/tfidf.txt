@@ -2371,8 +2371,6 @@
 15 ounce cans dark red
 15 ounce cans diced
 15 ounce cans diced tomatoes
-15 ounce cans french
-15 ounce cans french cut
 15 ounce cans garbanzo
 15 ounce cans garbanzo beans
 15 ounce cans green
@@ -4559,6 +4557,10 @@
 60 buttery round
 60 buttery round crackers
 60 buttery round crackers crushed
+60 grape
+60 grape leaves
+60 grape leaves drained
+60 grape leaves drained and
 60 maraschino
 60 maraschino cherries
 60 maraschino cherries with
@@ -10018,9 +10020,6 @@ cans fat free reduced sodium
 cans fava
 cans fava beans
 cans french
-cans french cut
-cans french cut green
-cans french cut green beans
 cans french style
 cans french style green
 cans french style green beans
@@ -15339,6 +15338,7 @@ cup dried mixed fruit chopped
 cup dried onion
 cup dried onion flakes
 cup dried oregano
+cup dried parsley
 cup dried pinto
 cup dried pinto beans
 cup dried porcini
@@ -15643,6 +15643,7 @@ cup fresh green beans trimmed
 cup fresh green peas
 cup fresh lemon
 cup fresh lemon juice
+cup fresh lemon juice divided
 cup fresh lima
 cup fresh lima beans
 cup fresh lime
@@ -24627,6 +24628,7 @@ fresh jalapeno peppers sliced
 fresh jalapeno peppers sliced into
 fresh lemon
 fresh lemon juice
+fresh lemon juice divided
 fresh lemon juice optional
 fresh lemon juice or
 fresh lemon juice or to
@@ -27350,6 +27352,8 @@ hot turkey sausage
 hot vegetable
 hot vegetable stock
 hot water
+hot water as
+hot water as needed
 hot water or
 hot water or as
 hot water or as needed
@@ -34736,8 +34740,6 @@ ounce cans fat free reduced
 ounce cans fava
 ounce cans fava beans
 ounce cans french
-ounce cans french cut
-ounce cans french cut green
 ounce cans french style
 ounce cans french style green
 ounce cans frozen
