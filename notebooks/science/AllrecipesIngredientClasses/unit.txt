@@ -1,0 +1,13 @@
+ounce,ounces
+cup,cups
+package,packages
+inch,inches
+tablespoon,tablespoons
+pound,pounds
+teaspoon,teaspoons
+jigger,jiggers,shot,shots
+milliliter,milliliters
+liter,liters
+quart,quarts
+pint,pints
+gallon,gallons
