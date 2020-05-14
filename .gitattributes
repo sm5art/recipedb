@@ -34,3 +34,4 @@ notebooks/science/USDAFoodDataCentral/data/input_food.csv filter=lfs diff=lfs me
 notebooks/science/USDAFoodDataCentral/data/lab_method_code.csv filter=lfs diff=lfs merge=lfs -text
 notebooks/science/USDAFoodDataCentral/data/lab_method_nutrient.csv filter=lfs diff=lfs merge=lfs -text
 notebooks/science/USDAFoodDataCentral/data/all_downloaded_table_record_counts.csv filter=lfs diff=lfs merge=lfs -text
+notebooks/science/FoodBaseSemantics/foodbase/FoodBase_curated.xml filter=lfs diff=lfs merge=lfs -text
