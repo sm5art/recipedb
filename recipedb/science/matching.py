@@ -69,9 +69,13 @@ def match_ingredients(ingredients):
 
 def process_recipe(recipe):
     global count
-    matches = match_ingredients(recipe['data']['ingredients'])
+    error = None
+    try:
+        matches = match_ingredients(recipe['data']['ingredients'])
+    except Exception as e:
+        error = repr(e)
     db.matched_recipes.insert_one(
-        {"recipe_id": recipe['_id'], "matches": matches})
+        {"recipe_id": recipe['_id'], "matches": matches, "error": error})
     count += 1
     logger.info("Matched recipe %d/%d" % (count, N))
 
