@@ -63,10 +63,10 @@ def match_ingredients(ingredients):
 
 def process_recipe(recipe):
     global count
-    count += 1
     matches = match_ingredients(recipe['data']['ingredients'])
     db.matched_recipes.insert_one(
         {"recipe_id": recipe['_id'], "matches": matches})
+    count += 1
     logger.info("Matched recipe %d/%d" % (count, N))
 
 
