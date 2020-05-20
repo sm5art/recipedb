@@ -9,7 +9,7 @@ from fuzzywuzzy import fuzz
 from recipedb.db import get_db
 from recipedb.utils.logging import logger_factory
 
-THREADS = 10
+THREADS = 20
 THRESHOLD = 75
 db = get_db()
 logger = logger_factory(__name__)
@@ -24,7 +24,6 @@ def split_text_into_words(raw_text):
 
 def parse_and_separate_units(raw_ingred_text):
     terms = split_text_into_words(raw_ingred_text)
-    last_term = None
     unit = None
     i = 0
     found = False
@@ -36,12 +35,19 @@ def parse_and_separate_units(raw_ingred_text):
                 found = True
         if found:
             break
-        last_term = term
         i += 1
     if found:
         terms.pop(i)
-        terms.pop(i-1)
-        units = {'qty': float(Fraction(last_term)), "unit": unit}
+        qty = None
+        while i >= 0:
+            try:
+                qty = float(Fraction(terms[i]))
+                terms.pop(i)
+                break
+            except Exception:
+                pass
+            i = i - 1
+        units = {'qty': qty, "unit": unit}
     else:
         units = None
     return units, ' '.join(terms)
