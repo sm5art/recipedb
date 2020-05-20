@@ -1,1 +1,1 @@
-docker run -it recipedb /bin/bash
+docker run -d recipedb $1

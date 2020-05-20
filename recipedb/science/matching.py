@@ -1,7 +1,7 @@
 import functools
 import pandas as pd
 import numpy as np
-from multiprocessing.dummy import Pool
+from multiprocessing import Pool
 from fractions import Fraction
 import time
 from fuzzywuzzy import fuzz
